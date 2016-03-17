@@ -1,0 +1,9 @@
+/* CSS Document */
+@font-face {font-family: FontAwesome; url(../resources/fonts/glyphicons-halflings-regular.woff);}
+
+body{padding:0px; margin:0px;}
+#map { width: 100%; height: 100%; border: 0px; padding: 0px; }
+.info{font-style:italic; font-size:10px; font-weight:bold;}
+#floating-panel{position: absolute; z-index: 5; top:10px; text-align: center; font-family: 'Roboto','sans-serif'; line-height: 30px; padding-left: 10px; width:90%;}
+#floating-panel input{box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); padding:5px 10px; width:30%; min-width:200px; float:left; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; color:#000; border:1px solid #00BBE1; opacity:0.8;}
+#floating-panel input:focus{opacity:1; box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);}
